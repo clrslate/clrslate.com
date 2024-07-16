@@ -1,0 +1,77 @@
+site_name: ClrSlate Tech Labs
+site_author: Piyush Rathi
+plugins:
+  - social
+  - search
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.ico
+  palette: 
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.path
+    - navigation.footer
+    - navigation.indexes
+    - announce.dismiss
+nav:
+  - Home: index.md
+  - Offerings:
+      - offerings/index.md
+      - "Cloud Agnostic and Self-Hosted Kubernetes Solution": offerings/cloud_agnostic_kubernetes.md
+      - "Integrated DevOps Tooling": offerings/integrated_devops_tooling.md
+      - "Multi-Tenancy and Cost Accountability": offerings/multi_tenancy_cost_accountability.md
+      - "Application Blueprints": offerings/application_blueprints.md
+      - "Marketplace": offerings/marketplace.md
+      - "Backup and Recovery": offerings/backup_recovery.md
+      - "Developer Portal with Backstage": offerings/developer_portal_backstage.md
+      - "Infrastructure as Code (IaC) with Terraform": offerings/iac_terraform.md
+      - "Secrets Management": offerings/secrets_management.md
+      - "Cost Management and Accountability": offerings/cost_management_accountability.md
+      - "Compliance and Governance": offerings/compliance_governance.md
+      - "Observability and Monitoring": offerings/observability_monitoring.md
+  - About Us:
+      - about/index.md
+      - "Our Mission": about/mission.md
+      - Careers: about/careers.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      title: On this page
+      permalink: true
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/clrslate
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@clrslate.io
+copyright: Copyright &copy; 2024 ClrSlate Tech Labs Private Limited
+extra_css:
+  - stylesheets/extra.css
