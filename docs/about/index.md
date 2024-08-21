@@ -43,11 +43,9 @@ We’d love to hear from you! Whether you have questions about our platform, nee
 ### Headquarters
 
 **ClrSlate Tech Labs Private Limited**  
-H-1505, Ozone Evergreens
-Harlur Road, HSR Layout,  
-Bangalore, Karnataka 560102  
-Contact Person: Piyush Rathi    
-Phone: [+91-8879250574](tel:+918879250574)
+WeWork Vaishnavi Signature  
+Outer Ring Road, Bellandur  
+Bengaluru  
 
 ---
 
